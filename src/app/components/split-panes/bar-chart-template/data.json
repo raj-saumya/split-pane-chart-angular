@@ -1,0 +1,69 @@
+{
+    "TimeStamp": 1573114808299,
+    "Path": "/pcDashboard/finance/data",
+    "Status": "OK",
+    "StatusCode": 200,
+    "Message": "Data Found",
+    "MetaData": {
+        "encrypted": true
+    },
+    "Data": {
+        "global": {
+            "actual": 154880.0,
+            "basePlan": 157015.0,
+            "lastYear": 302528.0
+        },
+        "mtdData": [
+            {
+                "actual": 18172.0,
+                "basePlan": 18172.0,
+                "lastYear": 17173.0
+            },
+            {
+                "actual": 20181.0,
+                "basePlan": 22324.0,
+                "lastYear": 27541.0
+            },
+            {
+                "actual": 21684.0,
+                "basePlan": 21172.0,
+                "lastYear": 29848.0
+            },
+            {
+                "actual": 18912.0,
+                "basePlan": 19591.0,
+                "lastYear": 22588.0
+            },
+            {
+                "actual": 33556.0,
+                "basePlan": 26716.0,
+                "lastYear": 27440.0
+            },
+            {
+                "actual": 23074.0,
+                "basePlan": 24635.0,
+                "lastYear": 25490.0
+            },
+            {
+                "actual": 19301.0,
+                "basePlan": 24405.0,
+                "lastYear": 21544.0
+            },
+            {
+                "lastYear": 25098.0
+            },
+            {
+                "lastYear": 33933.0
+            },
+            {
+                "lastYear": 20389.0
+            },
+            {
+                "lastYear": 24369.0
+            },
+            {
+                "lastYear": 27115.0
+            }
+        ]
+    }
+}

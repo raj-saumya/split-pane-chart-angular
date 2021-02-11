@@ -1,0 +1,37 @@
+<div class="header">
+  SPLIT PANES
+</div>
+
+
+<div class="container">
+  <div class="split-example">
+    <as-split direction="vertical" restrictMove="true" [useTransition]="true">
+      <as-split-area size="60">
+        <as-split direction="horizontal" restrictMove="true">
+          <as-split-area class="panel" id="panel-1" size="65">
+            <app-bar-chart-template [graphID]="panel1.id" [height]="panel1.height" [width]="panel1.width"></app-bar-chart-template>
+            <!-- <app-trial [height]="height1" [width]="width1"></app-trial> -->
+          </as-split-area>
+          <as-split-area class="panel" id="panel-2" size="35">
+            <app-bar-chart-template [graphID]="panel2.id" [height]="panel2.height" [width]="panel2.width"></app-bar-chart-template>
+            <!-- <app-trial [height]="height2" [width]="width5"></app-trial> -->
+          </as-split-area>
+        </as-split>
+      </as-split-area>
+      <as-split-area size="40">
+        <as-split direction="horizontal" restrictMove="true">
+          <as-split-area class="panel" id="panel-3">
+            <app-bar-chart-template [graphID]="panel3.id" [height]="panel3.height" [width]="panel3.width"></app-bar-chart-template>
+          </as-split-area>
+          <as-split-area class="panel" id="panel-4">
+            <app-bar-chart-template [graphID]="panel4.id" [height]="panel4.height" [width]="panel4.width"></app-bar-chart-template>
+          </as-split-area>
+          <as-split-area class="panel" id="panel-5">
+            <app-bar-chart-template [graphID]="panel5.id" [height]="panel5.height" [width]="panel5.width"></app-bar-chart-template>
+          </as-split-area>
+        </as-split>
+      </as-split-area>
+
+    </as-split>
+  </div>
+</div>

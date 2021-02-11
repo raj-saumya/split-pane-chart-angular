@@ -1,0 +1,30 @@
+.header{
+    padding: 16px;
+    background: #fff;
+    color: #000;
+    font-size: 20px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+}
+h5{
+    margin: 1px;
+}
+
+.container{
+    padding: 10px;
+}
+
+.split-example{
+    height: calc(100vh - 100px);
+}
+
+.panel{
+    background: white;
+    border: 1px solid #c1c1c1;
+    border-radius: 2px;
+}
+
+.as-horizontal>.as-split-area{
+    height: auto !important;
+    flex-shrink: 1 !important;
+}
+

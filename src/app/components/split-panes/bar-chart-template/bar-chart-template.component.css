@@ -1,0 +1,60 @@
+.table {
+  display: table;
+  width: 100%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.cell {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.divider {
+  background: #c1c1c1;
+  height: 1px;
+  margin-left: 8px;
+}
+
+.cards {
+  background: #f8f8f8;
+  width: max-content;
+  padding: 8px;
+  border: 1px solid #c1c1c1;
+  border-radius: 2px;
+}
+
+.w-x8 {
+  width: 8px;
+}
+
+.h-x2 {
+  height: 2px;
+}
+
+.h-x4 {
+  height: 4px;
+}
+
+.h-x8 {
+  height: 8px;
+}
+
+.header {
+  color: #666666;
+  font-size: 10px;
+}
+
+.header-val {
+  font-size: 16px;
+}
+
+label {
+  color: #4c4c4c;
+}
